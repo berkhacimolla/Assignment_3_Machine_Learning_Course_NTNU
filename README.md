@@ -1,6 +1,6 @@
-# Fashion MNIST Classification with Convolutional Neural Networks (CNNs)
+# Fashion MNIST Classification with Fully connected Neural Netweork and Convolutional Neural Networks (CNNs)
 
-This project demonstrates image classification on the Fashion MNIST dataset using convolutional neural networks (CNNs) built with TensorFlow and Keras. The project explores improvements in model generalization and performance by comparing an initial NN model with an optimized CNN version that incorporates regularization techniques.
+This project demonstrates image classification on the Fashion MNIST dataset using convolutional neural networks (CNNs) built with TensorFlow and Keras. The project explores improvements in model generalization and performance by comparing an initial fully connected Neural Network model with an optimized CNN version that incorporates regularization techniques.
 
 ## Project Overview
 
@@ -9,7 +9,7 @@ The goal of this project is to classify images from the Fashion MNIST dataset.
 ### Models
 
 1. **Initial Model**:
-   - Basic NN structure with several convolutional and pooling layers.
+   - Basic NN structure.
    - No regularization applied, leading to potential overfitting.
 
 2. **Optimized Model**:
@@ -19,7 +19,7 @@ The goal of this project is to classify images from the Fashion MNIST dataset.
 
 ## Model Architecture
 
-Both models share a similar architecture consisting of convolutional and pooling layers followed by fully connected layers. The optimized model differs by incorporating dropout for regularization.
+The optimized model differs by incorporating dropout for regularization.
 
 | Layer Type          | Output Shape            |
 |---------------------|-------------------------|
